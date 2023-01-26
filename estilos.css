@@ -1,0 +1,63 @@
+/* comentarios en css semantica de la pagina web dividida por bordes*/
+header{ border: 2px solid black; background-color: yellow;}
+nav{border: 2px solid black;}
+section{border : 2px solid black;}
+article{border: 2px solid black}
+aside{border:2px solid black}
+footer{ border:2px solid black;}
+section
+
+/* El simbolo asterisco agrega caracteristicas a todos los elementos.*/
+*{background-color:lightcyan;}
+
+p {color:black;
+    font-size:20px;
+    font-weight:100;
+    width: 800px; 
+    height: 300px;
+    margin: 30px;
+    padding: 5px;   
+}
+/* el punto como caracter da lugar a crear un espacio con caracteristicas css, que son aplicables en HTML con el codigo class*/
+.estilo{ color:black;
+font-weight: bold;}
+
+            ul {color:black;
+            width:800px;
+            height:200px;
+            margin: 30px;
+            padding:5px;
+        
+        }
+            h1{ background-color:red;
+                color: lime;
+                border: black 2px solid;
+                width:1250px;
+                height:100px;
+                font-weight:bold ;
+                margin: 30;
+                padding: 1px;
+            }
+            h2{background-color: lime;
+                 color: black; font-weight:bold;
+                  width:1250px;
+                   height:50px; 
+                   border: 2px solid black; 
+                   margin: 30px;
+                   padding: 1px}
+            h3{ background-color: lime;
+                 border: 2px solid black; 
+                 width: 1300px; 
+                 height:50px ;}
+                 /* El codigo id en html me permite agregar caracteristicas especificas en css, identificandolo en el documento con un #*/
+            #titulo_con_spn,span{background-color: lime;  
+                width: 1300px; 
+                height:50px ;}
+    
+            img{ border: 3px solid black;margin: 30px;padding: 5px;}
+            video{border: 3px solid black;margin: 30px;padding: 5px;}
+            iframe{border: 3px solid black;margin: 30px;padding: 5px;}
+            audio{border: 3px solid black;margin: 30px;padding: 5px;}
+
+
+        
